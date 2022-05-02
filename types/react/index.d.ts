@@ -1264,6 +1264,7 @@ declare namespace React {
         /**
          * See the [DOM Level 3 Events spec](https://www.w3.org/TR/uievents-key/#named-key-attribute-values). for possible values
          */
+        isComposing: boolean;
         key: string;
         /** @deprecated */
         keyCode: number;
